@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+E-commerce store built with Next.js and Stripe checkout by [AlterClass.io](https://alterclass.io).
 
-## Available Scripts
+- Learn to build this application step-by-step by following the tutorial on [AlterClass](https://alterclass.io/tutorials/create-an-ecommerce-website-with-nextjs-and-stripe).
 
-In the project directory, you can run:
+- Preview the app live [here](https://myplantshop.vercel.app/).
 
-### `yarn start`
+- Deploy the same app using Vercel:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/AlterClassIO/ecommerce-nextjs-stripe-checkout&project-name=eCommerce+Store+by+AlterClass&repository-name=eCommerce+Store+by+AlterClass)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Getting Started
 
-### `yarn test`
+### 1. Clone the repository and install dependencies
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/AlterClassIO/ecommerce-nextjs-stripe-checkout
+cd ecommerce-nextjs-stripe-checkout
+npm install
+```
 
-### `yarn build`
+### 2. Configure your local environment
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Rename the `.env.local.example` file in this directory to `.env.local` (which will
+be ignored by Git):
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+cp .env.local.example .env.local
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Add your own values for all the environment variables.
 
-### `yarn eject`
+### 3. Start the application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run your site locally, use:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm run dev
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To run it in production mode, use:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm run build
+npm run start
+```
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[MIT](https://github.com/AlterClassIO/ecommerce-nextjs-stripe-checkout/blob/master/LICENSE)
