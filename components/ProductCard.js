@@ -5,6 +5,7 @@ import { toast } from 'react-hot-toast';
 import { useShoppingCart } from '@/hooks/use-shopping-cart';
 import { formatCurrency } from '@/lib/utils';
 import { Rating } from '@/components/index';
+import { jsx as ReactJsx } from 'react/jsx-runtime';
 
 const ProductCard = props => {
   const { cartCount, addItem } = useShoppingCart();
