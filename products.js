@@ -1,9 +1,9 @@
 const products = [
   {
-    id: 'price_1JAE9cEy9j6mAC9ettoD2R0D',
-    name: 'Kentiapalm (L)',
-    price: 3995,
-    currency: 'USD',
+    id: 'price_1NE3GHABaCrTM2mTMiZxjbJ2',
+    name: 'Tesisat',
+    price: 100,
+    currency: 'CAD',
     image: '/plants/kentiapalm.png',
     rating: {
       count: 85,
