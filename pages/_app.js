@@ -9,11 +9,11 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          E-commerce store built with Next.js and Stripe checkout | AlterClass
+          Swiss Techma
         </title>
         <meta
           name="description"
-          content="E-commerce store built with Next.js and Stripe checkout by AlterClass.io"
+          content="Swiss Techma"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

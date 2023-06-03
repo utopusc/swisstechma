@@ -9,9 +9,7 @@ const Footer = () => (
         rel="noopener noreferrer"
         className="text-gray-500 hover:text-current"
       >
-        Made with{' '}
-        <HeartIcon className="inline-block w-4 h-4 -mt-1 text-red-600 animate-pulse" />{' '}
-        by AlterClass.io
+      @2023 Swiss Techma All rights reserved.
       </a>
     </p>
   </footer>
